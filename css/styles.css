@@ -96,12 +96,12 @@ p {
   text-transform: uppercase;
   background: var(--clr-primary);
   color: var(--clr-white);
-  padding: 0.75rem 1rem;
+  padding: 0.375rem 0.75rem;
   letter-spacing: var(--spacing);
   display: inline-block;
   font-weight: 700;
   transition: var(--transition);
-  font-size: 1rem;
+  font-size: 0.875rem;
   border: none;
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -143,8 +143,7 @@ Header
 */
 .header {
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
   position: relative;
   /* animation */
   overflow-x: hidden;
@@ -177,12 +176,7 @@ Header
 /* content divider */
 .content-divider {
   height: 0.5rem;
-  background: linear-gradient(
-    to left,
-    var(--clr-primary),
-    #e9b949,
-    var(--clr-primary)
-  );
+  background: linear-gradient(to left, var(--clr-primary), #e9b949, var(--clr-primary));
 }
 /*
 =============== 
@@ -264,3 +258,8 @@ About
     padding-left: 2rem;
   }
 }
+/*
+=============== 
+Products
+===============
+*/
