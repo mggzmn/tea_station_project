@@ -347,7 +347,7 @@ services
   color: var(--clr-grey-5);
   margin: 0 auto;
 }
-.service-btn{
+.service-btn {
   font-size: 0.75rem;
   text-transform: capitalize;
   padding: 0.375rem 0.5rem;
@@ -355,16 +355,31 @@ services
   font-weight: 400;
   margin-top: 1.25rem;
 }
-@media screen and (min-width:768px){
-  .service-card{
+@media screen and (min-width: 768px) {
+  .service-card {
     float: left;
     width: 45%;
     margin-right: 5%;
   }
 }
-@media screen and (min-width:992px){
-  .service-card{
+@media screen and (min-width: 992px) {
+  .service-card {
     width: 30%;
     margin-right: 3.333%;
   }
+}
+.service-img-container {
+  position: relative;
+}
+.service-icon {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  font-size: 2rem;
+  color: var(--clr-primary);
+  background: var(--clr-primary-light);
+  padding: 0.25rem 0.6rem;
+  border-radius: 50%;
+  transform: translate(-50%,50%);
+  border: .37rem solid var(--clr-grey-10);
 }
